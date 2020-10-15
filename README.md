@@ -1,6 +1,6 @@
 # chess-engine-experiment
 
-This will be an experiment toward a differnt approach to a chess engine.  
+This will be an experiment toward a different approach to a chess engine.  
 
 I'll be designing unit tests first:  
 Tactics puzzles which the engine needs to be able to solve correctly, and under certain search depth restrictions, in order to pass a given puzzle.  
