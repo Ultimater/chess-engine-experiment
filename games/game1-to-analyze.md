@@ -26,6 +26,24 @@ Qe4 24. Rh4+ Kg5 25. Qxe4 h5 26. Rf1 Bc5+ 27. Kh1 Bf2 28. Rxf2 Ne5 29. Qf5+ Kh6
 Qc4 Bc5 25. Re4+ ( 25. Qe4+ Qxe4 26. Rxe4# )25... Qxe4 26. Qxe4#
 ```
 
+Same PGN but without sidelines nor annotations:
+
+```
+[White "Stockfish"]
+[Black "Scorpio"]
+[Result "1-0"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Marshall Variation"]
+[Termination "Normal"]
+
+1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. Nf3 Bf5 5. Bd3 Bxd3 6. Qxd3 e6
+7. O-O c5 8. Bg5 Qd7 9. Nc3
+f6 10. Be3 Nxc3 11. Qxc3 cxd4 12. Nxd4 e5 13. Rad1 exd4 14. Bxd4 Nc6 15. Bxf6 Qf5 16. Rfe1+ Kf7
+17. Re3 gxf6 18. Qc4+ Kg6 19. Rg3+ Kh5 20. Qf7+ Kh4 21. Rh3+ Kg4 22. f3+ Kf4 23. Rh4+ Ke3 24.
+Qc4 Bc5 25. Re4+ Qxe4 26. Qxe4#
+```
+
+
 Todo: Find the last bad move that was made which, given perfect play from both sides, would have changed the result of the game.  
 Then with the adjusted move, try to prove it's perfect play by having multiple engines try to break the assumption that it is perfect play.
 Then try to find the next last bad move from either side, etc...
