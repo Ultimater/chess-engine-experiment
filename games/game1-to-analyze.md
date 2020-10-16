@@ -65,6 +65,37 @@ Same PGN but without sidelines nor annotations:
 ```
 
 
+Latest evaluation:
+```
+[White "Stockfish"]
+[Black "Scorpio"]
+[Result "1-0"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Marshall Variation"]
+[Termination "Normal"]
+
+1. e4 d5
+2. exd5 Nf6
+3. d4 Nxd5
+4. Nf3 Bf5
+5. Bd3 Bxd3
+6. Qxd3 e6
+7. O-O c5
+8. Bg5 Qd7
+9. Nc3 f6
+10. Be3 Nxc3
+11. Qxc3 cxd4
+12. Nxd4 e5
+13. Rad1 exd4
+14. Bxd4 Nc6
+15. Bxf6 Qf5
+16. Rfe1+ Kf7
+17. Re3 gxf6
+18. Qc4+ Kg6
+19. Rg3+ Kh5?? {Kh5?? is a blunder (19... Kh5 20. Qf7+ Qg6 21. Rd5+ Ne5 22. Rxg6 hxg6 23. Qxf6 Bd6 24. Rxd6 Rhd8 25. Qxe5+ Kh6 26. Qf4+ Kh7 27. Qh4+ Kg7 28. Qf6+ Kg8 29. Qxg6+ Kh8 30. Qh6+ Kg8 31. Rg6+ Kf7 32. Qh7+ Ke8 33. Rg8#) the best move here is Qg5 which fights much longer but still looks lost...
+(19... Qg5 20. Rxg5+ fxg5 21. Rd7 Be7 22. h4 Raf8 23. Qe4+ Kh6 24. Rxb7 Rf6 25. hxg5+ Kxg5 26. Rc7 Rd8 27. Rxc6 Rd1+ 28. Kh2 Rxc6 29. f4+ Kf6 30. Qxc6+ Bd6 31. Qc4 a5 32. Kg3 Rb1 33. Qd4+ Ke7 34. Qe4+ Kd8 35. Qd5 Ke7 36. Qg5+ Kd7 37. Qf5+ Ke7 38. Qxh7+ Kd8 39. Qh8+ Ke7 40. Qg7+ Ke8 41. Qd4 Be7 42. Kg4 Kf8 43. Qe5 Kf7 44. a4 Bf6 45. Qd5+ Kg7 46. b3 Rb2) Evaluation on Stockfish 10 at 38 Depth is +8.18 Still need to determine the best moves to figure out how many moves it is until mate}
+```
+
 Todo: Find the last bad move that was made which, given perfect play from both sides, would have changed the result of the game.  
 Then with the adjusted move, try to prove it's perfect play by having multiple engines try to break the assumption that it is perfect play.
 Then try to find the next last bad move from either side, etc...
