@@ -92,7 +92,14 @@ Latest evaluation:
 16. Rfe1+ Kf7
 17. Re3 gxf6
 18. Qc4+ Kg6
-19. Rg3+ Kh5?? {Kh5?? is a blunder (19... Kh5 20. Qf7+ Qg6 21. Rd5+ Ne5 22. Rxg6 hxg6 23. Qxf6 Bd6 24. Rxd6 Rhd8 25. Qxe5+ Kh6 26. Qf4+ Kh7 27. Qh4+ Kg7 28. Qf6+ Kg8 29. Qxg6+ Kh8 30. Qh6+ Kg8 31. Rg6+ Kf7 32. Qh7+ Ke8 33. Rg8#) the best move here is Qg5 which fights much longer but still looks lost... (19... Qg5 20. Rxg5+ fxg5 21. Rd7 Be7 22. h4 gxh4 23. Rxb7 Rhc8 24. b4 a6 25. Rb6 Bf6 26. Rxc6 Rxc6 27. Qxc6 Ra7 28. a4 Kg7 29. Qc4 h5 30. Kh2 Ra8 31. b5 axb5 32. axb5 Rf8 33. Qc5 Re8 34. b6 Be5+ 35. Kh3 Kf6 36. Kxh4 Kf7 37. Qd5+ Re6 38. b7 Ke7 39. b8=R Bxb8 40. Qb7+ Kf6 41. Qxb8) Evaluation on Stockfish 10 at 40 Depth is +8.19 Still need to determine the best moves to figure out how many moves it is until mate}
+19. Rg3+ Kh5?? {
+Kh5?? is a blunder
+(19... Kh5 20. Qf7+ Qg6 21. Rd5+ Ne5 22. Rxg6 hxg6 23. Qxf6 Bd6 24. Rxd6 Rhd8 25. Qxe5+ Kh6 26. Qf4+ Kh7 27. Qh4+ Kg7 28. Qf6+ Kg8 29. Qxg6+ Kh8 30. Qh6+ Kg8 31. Rg6+ Kf7 32. Qh7+ Ke8 33. Rg8#)
+The best move here is Qg5 which fights much longer but still looks lost...
+(19... Qg5 20. Rxg5+ fxg5 21. Rd7 Be7 22. h4 gxh4 23. Rxb7 Rhc8 24. b4 a6 25. Rb6 Bf6 26. Rxc6 Rxc6 27. Qxc6 Ra7 28. a4 Kg7 29. Qc4 h5 30. Kh2 Ra8 31. b5 axb5 32. axb5 Rf8 33. Qc5 Re8 34. b6 Be5+ 35. Kh3 Kf6 36. Kxh4 Kf7 37. Qd5+ Re6 38. b7 Ke7 39. b8=R Bxb8 40. Qb7+ Kf6 41. Qxb8)
+Evaluation on Stockfish 10 at 40 Depth is +8.19
+Still need to determine the best moves to figure out how many moves it is until mate
+}
 ```
 
 Todo: Find the last bad move that was made which, given perfect play from both sides, would have changed the result of the game.  
