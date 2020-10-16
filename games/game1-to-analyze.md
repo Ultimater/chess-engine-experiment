@@ -37,8 +37,7 @@ Same PGN but without sidelines nor annotations:
 [Termination "Normal"]
 
 1. e4 d5 2. exd5 Nf6 3. d4 Nxd5 4. Nf3 Bf5 5. Bd3 Bxd3 6. Qxd3 e6
-7. O-O c5 8. Bg5 Qd7 9. Nc3
-f6 10. Be3 Nxc3 11. Qxc3 cxd4 12. Nxd4 e5 13. Rad1 exd4 14. Bxd4 Nc6 15. Bxf6 Qf5 16. Rfe1+ Kf7
+7. O-O c5 8. Bg5 Qd7 9. Nc3 f6 10. Be3 Nxc3 11. Qxc3 cxd4 12. Nxd4 e5 13. Rad1 exd4 14. Bxd4 Nc6 15. Bxf6 Qf5 16. Rfe1+ Kf7
 17. Re3 gxf6 18. Qc4+ Kg6 19. Rg3+ Kh5 20. Qf7+ Kh4 21. Rh3+ Kg4 22. f3+ Kf4 23. Rh4+ Ke3 24.
 Qc4 Bc5 25. Re4+ Qxe4 26. Qxe4#
 ```
